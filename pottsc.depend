@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1386415465 source:e:\potts\pottsc\main.cpp
+	<iostream>
+	"potts.h"
+	"pottsSqure.h"
+
+1386408395 e:\potts\pottsc\potts.h
+
+1386415152 source:e:\potts\pottsc\potts.cpp
+	"potts.h"
+	<time.h>
+	<stdlib.h>
+	<math.h>
+	<stdio.h>
+	<fstream>
+	<string.h>
+	<iostream>
+
+1386408474 e:\potts\pottsc\pottssqure.h
+	"potts.h"
+
+1386412306 source:e:\potts\pottsc\pottssqure.cpp
+	"pottsSqure.h"
+	<math.h>
+
