@@ -12,8 +12,8 @@ Simulation of POTTS model for square lattice with three Monte Carlo methods
 
 ## What
 
-- This is the code for the homework of ** Thermal Dynamics ** course.
+- This is the code for the homework of **Thermal Dynamics** course.
 
-- Phase transition of POTTS model, which is a generalization of ISING model is simulated with three methods, that is ** Metropolis **, ** SW ** and  ** Wolff **.
+- Phase transition of POTTS model, which is a generalization of ISING model is simulated with three methods, that is **Metropolis**, **SW** and  **Wolff**.
 
 
