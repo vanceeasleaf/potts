@@ -44,10 +44,10 @@ void Potts::run()
 {
     constructNeighbor();
     fstream fout("result.txt",ios::out);
-    fout<<Lx<<'x'<<Ly<<"六角晶格"<<meText[method]<<"法"<<endl;
-    cout<<Lx<<'x'<<Ly<<"六角晶格"<<meText[method]<<"法"<<endl;
-    fout<<"温度\t能量\t热容\t磁化强度\t磁化率"<<endl;
-    cout<<"温度\t能量\t热容\t磁化强度\t磁化率"<<endl;
+    fout<<Lx<<'x'<<Ly<<" hex lattic "<<meText[method]<<" method "<<endl;
+    cout<<Lx<<'x'<<Ly<<" hex lattic "<<meText[method]<<" method "<<endl;
+    fout<<"Temperature\tEnergy\tHeat Capacity\t Magnetic\tPhi"<<endl;
+    cout<<"Temperature\tEnergy\tHeat Capacity\t Magnetic\tPhi"<<endl;
     spin=new int[Natom];
 
     energy=new double[MCS];
